@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIM.Ports.Func.ExtractSensorReading", "src\ports\SIM.Ports.Func.ExtractSensorReading\SIM.Ports.Func.ExtractSensorReading.csproj", "{01BC0396-2866-4257-8B1A-105A4247646C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01BC0396-2866-4257-8B1A-105A4247646C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BC0396-2866-4257-8B1A-105A4247646C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BC0396-2866-4257-8B1A-105A4247646C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BC0396-2866-4257-8B1A-105A4247646C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
